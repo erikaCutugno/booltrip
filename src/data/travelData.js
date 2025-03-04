@@ -1,0 +1,148 @@
+const travels = [
+  {
+    id: 1,
+    destination: "Rome",
+    startDate: "2025-06-10",
+    endDate: "2025-06-20",
+    people: [
+      {
+        id: 101,
+        firstName: "Mario",
+        lastName: "Rossi",
+        email: "mario.rossi@example.com",
+        phone: "+393331234567",
+        taxCode: "RSSMRA85M01H501Z",
+      },
+      {
+        id: 102,
+        firstName: "Laura",
+        lastName: "Bianchi",
+        email: "laura.bianchi@example.com",
+        phone: "+393332345678",
+        taxCode: "BNCLRA90D01H501Y",
+      },
+    ],
+  },
+  {
+    id: 2,
+    destination: "Paris",
+    startDate: "2025-07-05",
+    endDate: "2025-07-15",
+    people: [
+      {
+        id: 103,
+        firstName: "Luca",
+        lastName: "Bianchi",
+        email: "luca.bianchi@example.com",
+        phone: "+393334567890",
+        taxCode: "BNCLCU90A01F205X",
+      },
+      {
+        id: 104,
+        firstName: "Elisa",
+        lastName: "Verdi",
+        email: "elisa.verdi@example.com",
+        phone: "+393339876543",
+        taxCode: "VRDELS88C02H501W",
+      },
+    ],
+  },
+  {
+    id: 3,
+    destination: "New York",
+    startDate: "2025-08-12",
+    endDate: "2025-08-22",
+    people: [
+      {
+        id: 105,
+        firstName: "Giulia",
+        lastName: "Verdi",
+        email: "giulia.verdi@example.com",
+        phone: "+393335678901",
+        taxCode: "VRDGLL95B52H501Y",
+      },
+      {
+        id: 106,
+        firstName: "Marco",
+        lastName: "Rossi",
+        email: "marco.rossi@example.com",
+        phone: "+393334567892",
+        taxCode: "RSSMRC91C03H501X",
+      },
+    ],
+  },
+  {
+    id: 4,
+    destination: "London",
+    startDate: "2025-09-10",
+    endDate: "2025-09-20",
+    people: [
+      {
+        id: 107,
+        firstName: "Alessandro",
+        lastName: "Neri",
+        email: "alessandro.neri@example.com",
+        phone: "+393336789012",
+        taxCode: "NRALES80C10H501P",
+      },
+      {
+        id: 108,
+        firstName: "Giovanna",
+        lastName: "Russo",
+        email: "giovanna.russo@example.com",
+        phone: "+393338765432",
+        taxCode: "RSGGVN85E12H501Z",
+      },
+    ],
+  },
+  {
+    id: 5,
+    destination: "Tokyo",
+    startDate: "2025-10-05",
+    endDate: "2025-10-15",
+    people: [
+      {
+        id: 109,
+        firstName: "Francesca",
+        lastName: "Russo",
+        email: "francesca.russo@example.com",
+        phone: "+393337890123",
+        taxCode: "RSSFNC85D55H501V",
+      },
+      {
+        id: 110,
+        firstName: "Matteo",
+        lastName: "Bianchi",
+        email: "matteo.bianchi@example.com",
+        phone: "+393336789098",
+        taxCode: "BNCMTT89F11H501Q",
+      },
+    ],
+  },
+  {
+    id: 6,
+    destination: "Madrid",
+    startDate: "2025-11-12",
+    endDate: "2025-11-22",
+    people: [
+      {
+        id: 111,
+        firstName: "Davide",
+        lastName: "Ferrari",
+        email: "davide.ferrari@example.com",
+        phone: "+393338901234",
+        taxCode: "FRRDVD92E20H501T",
+      },
+      {
+        id: 112,
+        firstName: "Sara",
+        lastName: "Esposito",
+        email: "sara.esposito@example.com",
+        phone: "+393339012345",
+        taxCode: "ESPSRA93G30H501W",
+      },
+    ],
+  },
+];
+
+export default travels;
