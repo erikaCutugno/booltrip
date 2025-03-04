@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import travels from "../../data/travelData";
 import Heading from "./Heading";
 
 export default function Card({ destination, start, end, link }) {
