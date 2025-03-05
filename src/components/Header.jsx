@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="bg-neutral-200 shadow-2xl">
       <Container>
-        <div className="mb-5">
+        <div className="mb-5 w-40">
           <Logo />
         </div>
       </Container>
