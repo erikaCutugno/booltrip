@@ -2,7 +2,7 @@ import Container from "./ui/Container";
 import LogoSmall from "./LogoSmall";
 export default function Footer() {
   return (
-    <footer className="bg-neutral-200">
+    <footer className="bg-neutral-100">
       <Container>
         <div className="mt-5">
           <LogoSmall />
