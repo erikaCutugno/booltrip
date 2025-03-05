@@ -13,12 +13,12 @@ export default function Accordion({
     setIsOpen((current) => !current);
   };
   return (
-    <div className="w-100 m-auto bg-slate-200 rounded-xl shadow-xl mb-6">
+    <div className="max-w-100 m-auto bg-slate-200 rounded-xl shadow-xl mb-6">
       <div
         className="flex justify-between bg-amber-500 text-white rounded-t-xl px-6 py-4 font-bold text-xl cursor-pointer"
         onClick={isToggle}
       >
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <div>{firstName}</div>
           <div> {lastName}</div>
         </div>

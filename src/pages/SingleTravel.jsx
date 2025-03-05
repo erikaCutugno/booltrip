@@ -75,23 +75,23 @@ export default function SingleTravel() {
         >
           <i className="fa-solid fa-left-long"></i>
         </Link>
-        <div className="flex justify-between items-center text-slate-700 mt-4">
+        <div className="flex flex-wrap justify-between items-center text-slate-700 mt-4 gap-3 capitalize">
           <Heading level={1}>{travel?.destination}</Heading>
 
-          <div className="flex gap-3 font-bold">
-            <Heading level={5}>Dal: {travel?.startDate}</Heading>
-            <Heading level={5}>Al: {travel?.endDate}</Heading>
+          <div className="flex flex-wrap gap-3 font-bold">
+            <Heading level={5}>dal: {travel?.startDate}</Heading>
+            <Heading level={5}>al: {travel?.endDate}</Heading>
           </div>
         </div>
 
         <div className="mt-10 space-y-6 bg-white text-slate-700 p-5 rounded-2xl shadow">
-          <div className="space-y-6 flex justify-between text-slate-700">
+          <div className="space-y-6 flex flex-wrap justify-between text-slate-700 ">
             <Heading level={2}>Elenco partecipanti</Heading>
             <SearchBar setSearch={setSearch} className="items-center" />
           </div>
 
           {travel?.people.length === 0 ? (
-            ""
+            "Aggiungi un partecipante per vederlo nella lista"
           ) : filteredPeople.length > 0 ? (
             filteredPeople.map((elm) => (
               <Accordion
